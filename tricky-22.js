@@ -1,0 +1,1 @@
+console.log([] + []); // '' because when plus operator is with arrays JS attempt to convert the arrays to string. tostring() method of an array is called which converts the arrays to a string, like '[ ].toString()' result is an empty string. Then expression becomes ` "" + "" `, concatenation of two empty strings results in another empty string " "
